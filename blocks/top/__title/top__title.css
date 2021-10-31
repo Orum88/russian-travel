@@ -1,11 +1,11 @@
 .top__title {
   font-family: Inter, sans-serif;
   color: white;
-  max-width: 782px;
+  max-width: 720px;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1;
+  line-height: 100px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 48px;
