@@ -5,4 +5,4 @@ Landing page.
 ### Описание
 Сайт реализован с помощью html, css.
 
-Проект: https://orum88.github.io/Russia-Travel/
+Проект: https://orum88.github.io/russian-travel/
