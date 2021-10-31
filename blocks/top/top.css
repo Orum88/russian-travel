@@ -1,0 +1,10 @@
+@import url("./__container/top__container.css");
+@import url("./__caption/top__caption.css");
+@import url("./__image/top__image.css");
+@import url("./__map/top__map.css");
+@import url("./__title/top__title.css");
+@import url("./__subtitle/top__subtitle.css");
+
+.top {
+	color: white;
+}
