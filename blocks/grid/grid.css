@@ -1,0 +1,31 @@
+.grid {
+  margin: 0 48px;
+  padding-top: 92px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 284px);
+  gap: 16px 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    padding-top: 88px;
+    grid-template-columns: repeat(auto-fit, 352px);
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .grid {
+    padding-top: 64px;
+    max-width: 288px;
+    grid-template-columns: repeat(auto-fit, 288px);
+    gap: 12px;
+  }
+}
