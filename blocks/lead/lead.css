@@ -1,0 +1,22 @@
+.lead {
+  margin: 0 148px;
+  padding-top: 56px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, max-content);
+  grid-gap: 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 0 48px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .lead {
+    margin: 0;
+  }
+}

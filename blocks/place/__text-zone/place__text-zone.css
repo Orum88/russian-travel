@@ -1,0 +1,11 @@
+.place__text-zone {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+@media screen and (max-width: 605px) {
+  .place__text-zone {
+    margin: 0 16px;
+    padding-top: 32px;
+    grid-area: 4 / 1 / 5 / 2;
+  }
+}
